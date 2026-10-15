@@ -1,16 +1,26 @@
-# React + Vite
+# IRONLOG
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A gym tracker for a 6-day Push / Pull / Legs split, built with React and Vite.
 
-Currently, two official plugins are available:
+## Features
+- Six training days (Push A/B, Pull A/B, Legs A/B) plus a rest day
+- Log the weight for each set and tick it off when done
+- Live progress counter for each session
+- Record tab with your past sessions, sets completed and top weight
+- Workouts are saved in your browser, so they stay after a refresh
+- Dark, mobile-friendly design
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Run it locally
+```bash
+npm install
+npm run dev
+```
+Then open the address shown in the terminal (usually http://localhost:5173).
 
-## React Compiler
+## Roadmap
+- AI coach chat for form, load and exercise-swap advice
+- Edit exercises inside the app
+- Progress charts
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Built with
+React, Vite
